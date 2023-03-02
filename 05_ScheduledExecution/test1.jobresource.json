@@ -1,0 +1,7 @@
+{
+  "TYPE" : "JobResource",
+  "version" : "1.1.0",
+  "arguments" : {
+    "aa" : "111"
+  }
+}

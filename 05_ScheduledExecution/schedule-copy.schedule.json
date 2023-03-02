@@ -1,0 +1,19 @@
+{
+  "version" : "1.3.0",
+  "workflowNames" : [ "Rollout" ],
+  "title" : "schedule",
+  "submitOrderToControllerWhenPlanned" : true,
+  "planOrderAutomatically" : true,
+  "calendars" : [ {
+    "calendarName" : "work_alldays",
+    "timeZone" : "Asia/Tokyo",
+    "periods" : [ {
+      "singleStart" : "23:00:00",
+      "whenHoliday" : "SUPPRESS"
+    } ]
+  } ],
+  "nonWorkingDayCalendars" : [ {
+    "calendarName" : "nonwork_holidays"
+  } ],
+  "orderParameterisations" : [ ]
+}

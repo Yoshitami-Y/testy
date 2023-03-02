@@ -1,0 +1,8 @@
+{
+  "version" : "1.4.0",
+  "workflowNames" : [ ],
+  "submitOrderToControllerWhenPlanned" : false,
+  "planOrderAutomatically" : false,
+  "calendars" : [ ],
+  "orderParameterisations" : [ ]
+}
